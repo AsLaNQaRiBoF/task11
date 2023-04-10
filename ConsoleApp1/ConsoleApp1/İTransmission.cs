@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal interface Interface1
+    internal interface İTransmission
     {
+        
+    public string TransmissionKind { get; set; }
     }
 }
+

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal interface Interface1
+    internal interface IWheel
     {
+        public double WheelThickness;
+        {get; set;}
     }
 }
